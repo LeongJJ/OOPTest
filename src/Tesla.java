@@ -5,7 +5,7 @@ public class Tesla extends ElectricCar {
     private boolean isTeslaTheatreEnabled;
 
     protected Tesla(String carID, String carModel, Manufacturer manufacturer, double batteryCapacityKWh,
-                  boolean hasPanaromicSunroof, boolean hasWirelessCharging) {
+                  boolean isAutoPilotEnabled, boolean isFullSelfDrivingEnabled, boolean isTeslaTheatreEnabled) {
         super(carID, carModel, manufacturer, batteryCapacityKWh);
         this.isAutoPilotEnabled = isAutoPilotEnabled;
         this.isFullSelfDrivingEnabled = isFullSelfDrivingEnabled;
@@ -14,14 +14,17 @@ public class Tesla extends ElectricCar {
 
 
     public boolean isAutoPilotEnabled() {
+
         return isAutoPilotEnabled;
     }
 
     public boolean isFullSelfDrivingEnabled() {
+
         return isFullSelfDrivingEnabled;
     }
 
     public boolean isTeslaTheatreEnabled() {
+
         return isTeslaTheatreEnabled;
     }
 }

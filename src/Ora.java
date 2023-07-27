@@ -10,10 +10,12 @@ public class Ora extends ElectricCar {
     }
 
     public boolean hasPanaromicSunroof() {
+
         return hasPanaromicSunroof;
     }
 
     public boolean hasWirelessCharging() {
+
         return hasWirelessCharging;
     }
 }
